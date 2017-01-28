@@ -22,7 +22,7 @@
 |
 */
 if($_SERVER['SERVER_NAME'] == 'localhost'){
-	$config['base_url'] = 'http://localhost/pakland/';
+	$config['base_url'] = 'http://localhost/thepakland/';
 }else{
 	$config['base_url'] = 'http://thepakland.com/';
 }

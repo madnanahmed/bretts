@@ -2,7 +2,7 @@
  * Created by muhammad adnan on 10/9/2016.
  */
 
- var AjaxUrl = 'http://localhost/pakland/index.php/Ajax_script/';
+ var AjaxUrl = 'http://localhost/thepakland/index.php/Ajax_script/';
 //var AjaxUrl = 'http://thepakland.com/index.php/Ajax_script/';
 
 function search_load_city(id){

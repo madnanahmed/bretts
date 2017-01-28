@@ -25,7 +25,7 @@
 	<script>
 		<?php
 			if($_SERVER['SERVER_NAME'] == 'localhost'){
-				echo "var base_url = 'http://localhost/pakland/';";
+				echo "var base_url = 'http://localhost/thepakland/';";
 			}else{
 				echo "var base_url = 'http://thepakland.com/';";
 			}
