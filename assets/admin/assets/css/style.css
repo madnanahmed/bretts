@@ -1,0 +1,9 @@
+.password_hidden{
+    display: none;
+}
+ul{
+    list-style-type: none;
+}
+th{
+    text-transform: capitalize;
+}

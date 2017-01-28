@@ -1,0 +1,1 @@
+signup_chart_data = [{ y:'2014', a: '2' }];
