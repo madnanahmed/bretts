@@ -11,14 +11,14 @@
 	foreach($data['slider'] as $value): ?>
 	<div class="slider_home" style="background-image: url('<?= base_url('assets/images/uploads/slider/'.$value->image) ?>'); background-repeat:no-repeat; background-size:cover">
 		<div class="container">
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-md-3 col-sm-6">
 				<?php if(!empty($value->desc)): ?>
 					<div class="sliderTextBox">
 						<p><?= ucfirst( $value->desc ); ?></p>
 					</div>
 				<?php endif; ?>
 			</div>
-			<div class="col-lg-3 col-lg-offset-3">
+			<div class="col-lg-3 col-lg-offset-3 col-md-3 col-sm-6 col-sm-offset-6">
 				<?php if(!empty($value->title)): ?>
 					<h1 class="sliderPrice"><?= ucwords( $value->title ); ?></h1>
 				<?php endif; ?>
