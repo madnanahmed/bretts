@@ -9,7 +9,7 @@
 <section class="subHeader home bxslider">
 	<?php
 	foreach($data['slider'] as $value): ?>
-	<div class="slider_home" style="background-image: url('<?= base_url('assets/images/uploads/slider/'.$value->image) ?>');">
+	<div class="slider_home" style="background-image: url('<?= base_url('assets/images/uploads/slider/'.$value->image) ?>'); background-repeat:no-repeat; background-size:cover">
 		<div class="container">
 			<div class="col-lg-6">
 				<?php if(!empty($value->desc)): ?>
