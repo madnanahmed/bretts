@@ -262,6 +262,11 @@ class Admin extends CI_Controller
 			redirect('admin/' . $page . '');
 		}
 	}
+	function delete_slider(){
+
+		echo 'hello';
+
+	}
 
 	function property()
 	{
@@ -664,7 +669,7 @@ class Admin extends CI_Controller
 
 	function store_country()
 	{
-		$title =  "";
+//		$title =  "";
 		$title = $this->input->post('title');
 		$error = array();
 		if (empty($title)) {
@@ -934,7 +939,7 @@ class Admin extends CI_Controller
 			redirect('admin/settings');
 			exit;
 		}else{
-			$settings =	$this->session->userdata('settings');
+//			$settings =	$this->session->userdata('settings');
 			$id = settings('id');
 			$where = array('id' => $id);
 			$data = array('contact_email' => $email);
@@ -961,7 +966,7 @@ class Admin extends CI_Controller
 			redirect('admin/settings');
 			exit;
 		}else{
-			$settings =	$this->session->userdata('settings');
+//			$settings =	$this->session->userdata('settings');
 			$id = settings('id');
 			$where = array('id' => $id);
 			$data = array('contact_address' => $address);
